@@ -10,7 +10,6 @@ const person = {
 const { name: realname, age, key } = person;
 console.log(realname, age, key);
 
-
 const useContext = ({ name, age, key, range = 'Capitan' }) => {
     //console.log(name, range);
     return {
