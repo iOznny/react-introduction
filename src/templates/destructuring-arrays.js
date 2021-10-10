@@ -8,7 +8,7 @@ const returnArray = () => {
     return ['ABC', 123];
 }
 
-const [words, numbers] = returnArray();
+const [ words, numbers ] = returnArray();
 console.log(words, numbers);
 
 // Homework
@@ -18,6 +18,6 @@ const useState = (value) => {
     }];
 }
 
-const [name, setName] = useState('Goku');
+const [ name, setName ] = useState('Goku');
 console.log(name);
 setName();

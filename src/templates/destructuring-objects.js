@@ -22,6 +22,6 @@ const useContext = ({ name, age, key, range = 'Capitan' }) => {
     }
 }
 
-const { nameKey, ages, latlog: { lat, log }} = useContext(person);
+const { nameKey, ages, latlog: { lat, log } } = useContext(person);
 console.log(nameKey, ages);
 console.log(lat, log);
