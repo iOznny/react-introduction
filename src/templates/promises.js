@@ -14,7 +14,7 @@ import { getHeroeById } from "./templates/import-export-functions";
 // }).catch(e => console.warn(e));
 
 const getHeroeByIdAsync = (id) => {
-    return new Promise((resolve, reject) => {
+    return new Promise( (resolve, reject) => {
         setTimeout(() => {    
             const heroe = getHeroeById(id);            
             (heroe) ? resolve(heroe) : reject('No se pudo encontrar el heroe');
